@@ -147,18 +147,24 @@ font-size: 20px;
     display: flex;
     align-items: center;
     text-align: center;
+    padding: 2rem;
+    justify-content: space-around;
 }
 
 .contenedor-2{
     display: flex;
     align-items: center;
     text-align: center;
+    padding: 2rem;
+    justify-content: space-around;
 }
 
 .contenedor-3{
     display: flex;
     align-items: center;
     text-align: center;
+    padding: 2rem;
+    justify-content: space-around;
 }
 
 p{
@@ -172,9 +178,11 @@ p{
     font-weight: 600; /*es el semibold*/
 }
 
+
 .fondo-verde > div{
-font-size: 20px;
-}
+    font-size: 15px;
+    font-weight: normal
+    }
 
 .circulo4{
     background-color:  #d4e1e2;
@@ -207,6 +215,11 @@ footer{
     font-size: 14px;
     font-weight: normal;
 }
+
+
+
+
+
 
 
 
