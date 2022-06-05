@@ -1,0 +1,28 @@
+
+
+
+
+html{
+    /* font-family: 'Inter', sans-serif;
+     background-color: #ffffff;*/
+     box-sizing: border-box;
+ }
+ 
+ *{
+     box-sizing: inherit;
+     padding: 0;
+     margin: 0;
+     font-weight: regular;
+ }
+ 
+ header{
+     font-family: 'Inter', sans-serif;
+     background-color: #fef2f2;
+ 
+ }
+ body{
+     font-family: 'Inter', sans-serif;  
+     background-color: #ffffff;
+     font-size: 18px;
+ }
+ 
