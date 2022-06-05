@@ -19,6 +19,7 @@ html{
  header{
      font-family: 'Inter', sans-serif;
      background-color: #fef2f2;
+     padding: 25px;
  
  }
  body{
@@ -87,13 +88,23 @@ header > h1{
     font-weight: 600; /*es el semibold*/
 }
 
+/*
+.contenedor-logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}*/
 .logos{
-    height: 24px;
-    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
     background-color: #f26440;
     border-radius: 50%;
     border-color: #ffffff;
     border-style: solid;
+    border-width: 2px;
 }
 .circulo1{
     display: flex;
