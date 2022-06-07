@@ -25,7 +25,7 @@ html{
  body{
      font-family: 'Inter', sans-serif;  
      background-color: #ffffff;
-     font-size: 18px;
+     font-size: 20px;
  }
 
  nav{
@@ -125,7 +125,7 @@ header > h1{
 
 body > h2{
     color: #286f6c;
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 600; /*es el semibold*/
 }
 
@@ -192,27 +192,52 @@ p{
 .fondo-verde{
     background-color: #286f6c;
     color: #ffffff;
-    font-size: 21.5px;
+    font-size: 28px;
     font-weight: 600; /*es el semibold*/
 }
 
 
 .fondo-verde > div{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: normal
     }
 
 .fondo-fitness{
     background-color: #ffffff;
-    border-radius: 2%;
+    border-radius: 2.5%;
+    color:black;
+    box-shadow: 0 10px 15px 0 #22252459;
 }
 
+.fondo-fitness-2{
+    background-color: #ffffff;
+    border-radius: 2.5%;
+    color:black;
+    box-shadow: 0 10px 15px 0 #79878159;
+}
+
+.letra-caja-fitness{
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
    
     
 .circulo4{
     background-color:  #d4e1e2;
     border-color:  #d4e1e2;
 }
+/*
+.contenedor-contactos>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    justify-content: space-around;
+}
+*/
+
 .contenedor-4{
     display: flex;
     flex-direction: column;
@@ -247,20 +272,20 @@ p{
 }
 
 .titulos-verdes{
-    font-size: 14px;
+    font-size: 16px;
     color: #286f6c;
     font-weight: bold;
 }
 
 .letras-grises{
-    font-size: 14px;
+    font-size: 16px;
     color: #adadad
 }
 
 footer{
     color:#f26440;
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: normal;
 }
 
