@@ -202,6 +202,13 @@ p{
     font-weight: normal
     }
 
+.fondo-fitness{
+    background-color: #ffffff;
+    border-radius: 2%;
+}
+
+   
+    
 .circulo4{
     background-color:  #d4e1e2;
     border-color:  #d4e1e2;
@@ -223,23 +230,6 @@ p{
     padding: 2rem;
     justify-content: space-around;
 }
-
-
-/*
-.logos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 50px;
-    background-color: #f26440;
-    border-radius: 50%;
-    border-color: #ffffff;
-    border-style: solid;
-    border-width: 2px;
-}
-
-*/
 
 
 
