@@ -1,31 +1,29 @@
 
 
+:root{
+    --green-color: #286F6C;
+    --accent-color: #F26440;
+    --light-pink: #fef2f2;
+    --dark-color: #adadad;
+    --beige:#f9f5f2;
+}
 
-
-html{
-    /* font-family: 'Inter', sans-serif;
-     background-color: #ffffff;*/
-     box-sizing: border-box;
- }
- 
  *{
-    font-family: 'Inter', sans-serif;
-     box-sizing: inherit;
+     box-sizing: border-box;
      padding: 0;
      margin: 0;
-     font-weight: regular;
  }
  
  header{
      font-family: 'Inter', sans-serif;
      background-color: #fef2f2;
-     padding: 25px;
  
  }
+ 
  body{
      font-family: 'Inter', sans-serif;  
      background-color: #ffffff;
-     font-size: 20px;
+     font-size: 18px;
  }
 
  nav{
@@ -62,7 +60,6 @@ input#menu-hamburguesa~ul{
 
 input#menu-hamburguesa:checked ~ ul{
     display: flex;
-   /* right: 0;*/
 }
 
 nav > ul > li > a{
@@ -125,7 +122,7 @@ header > h1{
 
 body > h2{
     color: #286f6c;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 600; /*es el semibold*/
 }
 
@@ -192,34 +189,24 @@ p{
 .fondo-verde{
     background-color: #286f6c;
     color: #ffffff;
-    font-size: 28px;
+    font-size: 21.5px;
     font-weight: 600; /*es el semibold*/
 }
 
 
 .fondo-verde > div{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: normal
     }
 
 .fondo-fitness{
     background-color: #ffffff;
-    border-radius: 2.5%;
-    color:black;
-    box-shadow: 0 10px 15px 0 #22252459;
+    border-radius: 2%;
 }
 
 .fondo-fitness-2{
     background-color: #ffffff;
-    border-radius: 2.5%;
-    color:black;
-    box-shadow: 0 10px 15px 0 #79878159;
-}
-
-.letra-caja-fitness{
-    color: black;
-    font-weight: bolder;
-    font-size: 20px;
+    border-radius: 2%;
 }
    
     
@@ -227,17 +214,6 @@ p{
     background-color:  #d4e1e2;
     border-color:  #d4e1e2;
 }
-/*
-.contenedor-contactos>div{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    padding: 2rem;
-    justify-content: space-around;
-}
-*/
-
 .contenedor-4{
     display: flex;
     flex-direction: column;
@@ -272,20 +248,20 @@ p{
 }
 
 .titulos-verdes{
-    font-size: 16px;
+    font-size: 14px;
     color: #286f6c;
     font-weight: bold;
 }
 
 .letras-grises{
-    font-size: 16px;
+    font-size: 14px;
     color: #adadad
 }
 
 footer{
     color:#f26440;
     text-align: center;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: normal;
 }
 
