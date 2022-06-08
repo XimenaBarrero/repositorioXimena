@@ -137,8 +137,9 @@ width: 450px;
 
 .circulo1{
     display: flex;
-        width: 450px;
-        height: 450px;
+    position: absolute;
+        width: 420px;
+        height: 420px;
         border: 1px solid black;
         border-radius: 50%;
         background-color: var(--green-color);
@@ -299,7 +300,7 @@ footer{
 
 
 
-@media screen and ( min-width:600px ) {
+@media screen and ( min-width:860px ) {
     label{
         display: none;
     }
