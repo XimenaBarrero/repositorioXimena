@@ -1,11 +1,13 @@
 
 
+
 :root{
     --green-color: #286F6C;
     --accent-color: #F26440;
     --light-pink: #fef2f2;
     --dark-color: #adadad;
     --beige:#f9f5f2;
+    --light-blue: #d4e1e2;
 }
 
  *{
@@ -15,9 +17,8 @@
  }
  
  header{
-     font-family: 'Inter', sans-serif;
-     background-color: #fef2f2;
- 
+     background-color: var(--light-pink);
+     position: relative;
  }
  
  body{
@@ -29,10 +30,11 @@
  nav{
     display: flex;
     justify-content: space-between;
-    height: 70px;
-    padding: 1rem 1.5rem;  
+    height: 60px;
+    padding: 0.5rem 1.25rem;  
     align-items: center;
     text-align: center;
+    margin: bottom 1.5rem;
 }
 
 input#menu-hamburguesa{
@@ -40,16 +42,18 @@ input#menu-hamburguesa{
     width: 24px;
     visibility: hidden;
     border-radius: 50%;
-    background-color: #f26440;
+    background-color: var(--accent-color);
 }
 
+
 input#menu-hamburguesa~ul{
+    background-color: var(--light-pink);
     position: absolute;
     list-style: none;
     width: 100%;
     left: 0;
-    height: calc(100vh - 55px);
-    top: 50px;
+    height: calc(100vh - 60px);
+    top: 60px;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
@@ -72,18 +76,30 @@ nav > ul > li > a{
 }
 
 nav > ul > li > a:hover{
-    border-bottom: 2px solid #286f6c;
+    border-bottom: 2px solid var(--green-color);
 }
 
 
-.letras-home{
-    color: #286f6c;
+.section-titulo{
+    display: flex;
+    padding-left: 2%;
+   font-size: 50px;
+}
+.section-header{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-hamburguesa > span{
+    color: var(--green-color);
     font-weight: bold;
 }
-header > h1{
-    font-size: 50px ;
-    font-weight: 600; /*es el semibold*/
+
+.letras-home{
+    color: var(--green-color);
+    font-weight: bold;
 }
+
 
 /*
 .contenedor-logos{
@@ -97,7 +113,7 @@ header > h1{
     align-items: center;
     height: 50px;
     width: 50px;
-    background-color: #f26440;
+    background-color: var(--accent-color);
     border-radius: 50%;
     border-color: #ffffff;
     border-style: solid;
@@ -116,12 +132,12 @@ header > h1{
         height: 450px;
         border: 1px solid black;
         border-radius: 50%;
-        background-color: #286f6c;
-        border-color: #286f6c;
+        background-color: var(--green-color);
+        border-color: var(--green-color);
 }
 
 body > h2{
-    color: #286f6c;
+    color: var(--green-color);
     font-size: 32px;
     font-weight: 600; /*es el semibold*/
 }
@@ -138,8 +154,8 @@ font-size: 20px;
     height: 370px;
     border: 1px solid black;
     border-radius: 50%;
-    background-color: #286f6c;
-    border-color: #286f6c;
+    background-color: var(--green-color);
+    border-color: var(--green-color);
 }
 
 .circulo3{
@@ -148,8 +164,8 @@ font-size: 20px;
     height: 180px;
     border: 1px solid black;
     border-radius: 50%;
-    background-color: #f26440;
-    border-color: #f26440;
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
 }
 
 .años{
@@ -187,7 +203,7 @@ p{
 }
 
 .fondo-verde{
-    background-color: #286f6c;
+    background-color: var(--green-color);
     color: #ffffff;
     font-size: 21.5px;
     font-weight: 600; /*es el semibold*/
@@ -211,8 +227,8 @@ p{
    
     
 .circulo4{
-    background-color:  #d4e1e2;
-    border-color:  #d4e1e2;
+    background-color:  var(--light-blue);
+    border-color:  var(--light-blue);
 }
 .contenedor-4{
     display: flex;
@@ -240,7 +256,7 @@ p{
     align-items: center;
     height: 80px;
     width: 80px;
-    background-color: #f26440;
+    background-color: var(--accent-color);
     border-radius: 50%;
     border-color: #ffffff;
     border-style: solid;
@@ -249,17 +265,17 @@ p{
 
 .titulos-verdes{
     font-size: 14px;
-    color: #286f6c;
+    color:var(--green-color);
     font-weight: bold;
 }
 
 .letras-grises{
     font-size: 14px;
-    color: #adadad
+    color: var(--dark-color)
 }
 
 footer{
-    color:#f26440;
+    color:var(--accent-color);
     text-align: center;
     font-size: 14px;
     font-weight: normal;
@@ -301,6 +317,10 @@ footer{
     }
     
     nav > ul > li > a:hover{
-        border-bottom: 2px solid #286f6c;
+        border-bottom: 2px solid var(--green-color);
     }
 } 
+
+
+
+
