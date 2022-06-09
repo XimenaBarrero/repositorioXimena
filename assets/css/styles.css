@@ -79,16 +79,24 @@ nav > ul > li > a:hover{
     border-bottom: 2px solid var(--green-color);
 }
 
-
 .section-titulo{
     display: flex;
     padding-left: 5%;
    font-size: 50px;
 }
+
+h1{
+    font-size: 60px;
+    font-weight: semibold;
+}
 .section-header{
     display: flex;
-    /*justify-content: space-around;*/
+    justify-content: center;
     padding-left: 5%;
+}
+
+.contenedor-logos{
+    padding-left: 3.5rem;
 }
 
 h2{
@@ -102,9 +110,16 @@ h2{
     display: flex;
     padding-left: 5%;
     color: var(--dark-color);
-    font-size: 24px;
+    font-size: 20px;
 }
 
+.section{
+    padding: .7rem;
+}
+.section>h2{
+    font-size: 30px;
+    font-weight: 700px;
+}
 
 .letras-home{
     color: var(--green-color);
@@ -122,8 +137,8 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 53px;
-    width: 53px;
+    height: 55px;
+    width: 55px;
     background-color: var(--accent-color);
     border-radius: 50%;
     border-color: #ffffff;
@@ -321,7 +336,7 @@ footer{
 
 
 @media screen and ( min-width:860px ) {
-    label{
+    nav label{
         display: none;
     }
 
@@ -348,8 +363,57 @@ footer{
     nav > ul > li > a:hover{
         border-bottom: 2px solid var(--green-color);
     }
+
+    .section-titulo{
+        padding-left: 8%;
+    }
+    .section-header{
+        display: flex;
+        justify-content: center;
+    }
+
+    .section{
+        padding: 1rem 7rem;
+    }  
+
+    .section-experiencia{
+        padding: 1rem 3rem;
+    }
+
+    .section-contacto{
+        padding: 1rem 3rem;
+    }
+   
 } 
 
 
 
 
+@media screen and ( min-width:1024px ){
+    .contenedor-logos{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logos{
+        display: flex;
+        height: 57px;
+        width: 57px;
+    }
+
+    .section-titulo{
+        padding-left: 13%;
+    }
+
+    .section{
+        padding: 1rem 11rem;
+}
+.section-contacto{
+    padding: 1rem 1.5rem;
+}
+
+.section-acerca > p{
+    font-size: 24px;
+}
+
+}
