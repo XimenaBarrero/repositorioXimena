@@ -177,6 +177,15 @@ font-size: 20px;
     border-color: var(--accent-color);
 }
 
+.section-cuadros{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    justify-content: space-around;
+   
+}
+
 .años{
     color: black;
     font-weight: bolder;
