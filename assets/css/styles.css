@@ -117,7 +117,7 @@ h2{
     padding: .7rem;
 }
 .section>h2{
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 700px;
 }
 
@@ -249,14 +249,15 @@ p{
 .fondo-verde{
     background-color: var(--green-color);
     color: #ffffff;
-    font-size: 21.5px;
-    font-weight: 600; /*es el semibold*/
+    font-size: 16px;
+    font-weight: normal; /*es el semibold*/
 }
 
 
-.fondo-verde > div{
-    font-size: 15px;
-    font-weight: normal
+.section-portafolio>h2{
+    font-size: 32px;
+    font-weight: 700px;
+    color:white
     }
 
 .fondo-fitness{
@@ -376,9 +377,21 @@ footer{
         padding: 1rem 7rem;
     }  
 
+
     .section-experiencia{
         padding: 1rem 3rem;
     }
+
+    .section-portafolio{
+        display: flex;
+        flex-direction: flex-end;
+    }
+    
+    .section-portafolio>h2{
+        font-size: 40px;
+        font-weight: 700px;
+        color:white
+        }
 
     .section-contacto{
         padding: 1rem 3rem;
@@ -408,6 +421,11 @@ footer{
     .section{
         padding: 1rem 11rem;
 }
+
+.section>h2{
+    font-size: 40px;
+}
+
 .section-contacto{
     padding: 1rem 1.5rem;
 }
