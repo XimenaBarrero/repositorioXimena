@@ -253,11 +253,14 @@ p{
     font-weight: normal; /*es el semibold*/
 }
 
-
-.section-portafolio>h2{
+.section-portafolio{
+    padding: 5%;
+}
+.section-portafolio > h2{
     font-size: 32px;
     font-weight: 700px;
-    color:white
+    color:white;
+    padding:0%;
     }
 
 .fondo-fitness{
@@ -318,6 +321,14 @@ p{
     font-size: 14px;
     color: var(--dark-color)
 }
+
+.contenedor-contacto{
+display: flex;
+gap:1rem;
+padding: 2rem;
+justify-content: center;
+}
+
 
 footer{
     color:var(--accent-color);
@@ -386,11 +397,12 @@ footer{
         display: flex;
         flex-direction: flex-end;
     }
-    
-    .section-portafolio>h2{
+
+    .section-portafolio > h2{
         font-size: 40px;
         font-weight: 700px;
-        color:white
+        color:white;
+        display: inline-block;
         }
 
     .section-contacto{
