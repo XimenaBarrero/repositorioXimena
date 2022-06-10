@@ -258,8 +258,15 @@ p{
     }
 
 .fondo-fitness{
+    display: block;
     background-color: #ffffff;
     border-radius: 2%;
+}
+
+.imagen-fitness{
+    display: flex;
+    justify-content: center;
+    padding: ;
 }
 
 .fondo-fitness-2{
@@ -319,6 +326,7 @@ p{
 
 .contenedor-contacto{
 display: flex;
+justify-content: center;
 gap:1rem;
 padding: 2rem;
 }
@@ -449,5 +457,19 @@ footer{
 .años{
     font-size: 24px;
 }
+
+}
+
+@media screen and ( min-width:1189px ){
+    .contenedor-experiencia{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contenedor-2{
+        display: flex;
+        padding: 0 .5rem;
+    }
+
 
 }
