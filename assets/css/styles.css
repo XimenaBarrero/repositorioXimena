@@ -1,5 +1,4 @@
 
-
 :root{
     --green-color: #286F6C;
     --accent-color: #F26440;
@@ -78,20 +77,46 @@ nav > ul > li > a:hover{
     border-bottom: 2px solid var(--green-color);
 }
 
-
 .section-titulo{
     display: flex;
-    padding-left: 2%;
+    padding-left: 5%;
    font-size: 50px;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: semibold;
 }
 .section-header{
     display: flex;
     justify-content: center;
+    padding-left: 5%;
 }
 
-.menu-hamburguesa > span{
+.contenedor-logos{
+    padding-left: 3.5rem;
+}
+
+h2{
+    display: flex;
+    padding-left: 3%;
     color: var(--green-color);
-    font-weight: bold;
+    font-size: 40px;
+    font-weight: 600; 
+}
+.section-acerca > p{
+    display: flex;
+    padding-left: 5%;
+    color: var(--dark-color);
+    font-size: 20px;
+}
+
+.section{
+    padding: .7rem;
+}
+.section>h2{
+    font-size: 32px;
+    font-weight: 700px;
 }
 
 .letras-home{
@@ -110,8 +135,8 @@ nav > ul > li > a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
     background-color: var(--accent-color);
     border-radius: 50%;
     border-color: #ffffff;
@@ -119,27 +144,25 @@ nav > ul > li > a:hover{
     border-width: 2px;
 }
 
-/*
-.imagen-chica{
-    size: ;
+.imagen-chica > img{
+width: 450px;
 }
-*/
 
 .circulo1{
     display: flex;
-        width: 450px;
-        height: 450px;
+    position: absolute;
+        width: 420px;
+        height: 420px;
         border: 1px solid black;
         border-radius: 50%;
         background-color: var(--green-color);
         border-color: var(--green-color);
 }
 
-body > h2{
-    color: var(--green-color);
-    font-size: 32px;
-    font-weight: 600; /*es el semibold*/
-}
+
+
+
+
 
 body > p{
 color: #adadad;
@@ -165,6 +188,26 @@ font-size: 20px;
     border-radius: 50%;
     background-color: var(--accent-color);
     border-color: var(--accent-color);
+}
+
+.contenedor-habilidades{
+    display: flex;
+    gap:1rem;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.habilidades-card>img{
+    width: 35px;
+height: 35px;
+object-fit: contain;
+margin-bottom: .5rem;
+}
+
+.habilidades-card{
+    padding: 1.5rem 1rem;
+    background-color: var(--light-pink);
+    text-align: center;
 }
 
 .años{
@@ -204,14 +247,18 @@ p{
 .fondo-verde{
     background-color: var(--green-color);
     color: #ffffff;
-    font-size: 21.5px;
-    font-weight: 600; /*es el semibold*/
+    font-size: 16px;
+    font-weight: normal; /*es el semibold*/
 }
 
-
-.fondo-verde > div{
-    font-size: 15px;
-    font-weight: normal
+.section-portafolio{
+    padding: 5%;
+}
+.section-portafolio > h2{
+    font-size: 32px;
+    font-weight: 700px;
+    color:white;
+    padding:0%;
     }
 
 .fondo-fitness{
@@ -273,10 +320,18 @@ p{
     color: var(--dark-color)
 }
 
+.contenedor-contacto{
+display: flex;
+gap:1rem;
+padding: 2rem;
+justify-content: center;
+}
+
+
 footer{
     color:var(--accent-color);
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: normal;
 }
 
@@ -290,8 +345,8 @@ footer{
 
 
 
-@media screen and ( min-width:600px ) {
-    label{
+@media screen and ( min-width:860px ) {
+    nav label{
         display: none;
     }
 
@@ -318,4 +373,75 @@ footer{
     nav > ul > li > a:hover{
         border-bottom: 2px solid var(--green-color);
     }
+
+    .section-titulo{
+        padding-left: 8%;
+    }
+    .section-header{
+        display: flex;
+        justify-content: center;
+    }
+
+    .section{
+        padding: 1rem 7rem;
+    }  
+
+
+    .section-experiencia{
+        padding: 1rem 3rem;
+    }
+
+    .section-portafolio{
+        display: flex;
+        flex-direction: flex-end;
+    }
+
+    .section-portafolio > h2{
+        font-size: 40px;
+        font-weight: 700px;
+        color:white;
+        display: inline-block;
+        }
+
+    .section-contacto{
+        padding: 1rem 3rem;
+    }
+   
 } 
+
+
+
+
+@media screen and ( min-width:1024px ){
+    .contenedor-logos{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logos{
+        display: flex;
+        height: 57px;
+        width: 57px;
+    }
+
+    .section-titulo{
+        padding-left: 13%;
+    }
+
+    .section{
+        padding: 1rem 11rem;
+}
+
+.section>h2{
+    font-size: 40px;
+}
+
+.section-contacto{
+    padding: 1rem 1.5rem;
+}
+
+.section-acerca > p{
+    font-size: 24px;
+}
+
+}
