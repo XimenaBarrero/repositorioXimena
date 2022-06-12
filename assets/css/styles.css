@@ -144,6 +144,11 @@ h2{
 width: 450px;
 }
 
+body > p{
+    color: var(--dark-color);
+    font-size: 16px;
+    }
+    
 .circulo1{
     display: flex;
     position: absolute;
@@ -153,16 +158,6 @@ width: 450px;
         border-radius: 50%;
         background-color: var(--green-color);
         border-color: var(--green-color);
-}
-
-
-
-
-
-
-body > p{
-color: var(--dark-color);
-font-size: 16px;
 }
 
 .circulo2{
@@ -176,16 +171,6 @@ font-size: 16px;
     border-color: var(--green-color);
 }
 
-.circulo4{
-    display:flex;
-    position: relative;
-    width: 370px;
-    height: 370px;
-    border: 1px solid black;
-    border-radius: 50%;
-    background-color: var(--green-color);
-    border-color: var(--green-color);
-}
 .circulo3{
     display: flex;
     position: absolute;
@@ -196,6 +181,21 @@ font-size: 16px;
     background-color: var(--accent-color);
     border-color: var(--accent-color);
 }
+
+.circulos-juntos{
+    display: flex;
+}
+.circulo4{
+    display:flex;
+    position: relative;
+    width: 370px;
+    height: 370px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: var(--green-color);
+    border-color: var(--green-color);
+}
+
 
 .contenedor-habilidades{
     display: flex;
