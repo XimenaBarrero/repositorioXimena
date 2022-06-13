@@ -180,6 +180,8 @@ body > p{
     border-radius: 50%;
     background-color: var(--accent-color);
     border-color: var(--accent-color);
+    left: 200px;
+    bottom: 1px;
 }
 
 .circulos-juntos{
