@@ -158,6 +158,7 @@ body > p{
         border-radius: 50%;
         background-color: var(--green-color);
         border-color: var(--green-color);
+        z-index: -1;
 }
 
 .circulo2{
@@ -169,6 +170,7 @@ body > p{
     border-radius: 50%;
     background-color: var(--green-color);
     border-color: var(--green-color);
+    left: -25%;
 }
 
 .circulo3{
@@ -181,21 +183,8 @@ body > p{
     background-color: var(--accent-color);
     border-color: var(--accent-color);
     left: 200px;
-    bottom: 1px;
-}
+    bottom: -20px;
 
-.circulos-juntos{
-    display: flex;
-}
-.circulo4{
-    display:flex;
-    position: relative;
-    width: 370px;
-    height: 370px;
-    border: 1px solid black;
-    border-radius: 50%;
-    background-color: var(--green-color);
-    border-color: var(--green-color);
 }
 
 
@@ -309,8 +298,15 @@ p{
    
     
 .circulo4{
+    display:flex;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    position: absolute;
     background-color:  var(--light-blue);
     border-color:  var(--light-blue);
+    z-index: -1;
+    left: -12%;
 }
 .contenedor-4{
     display: flex;
