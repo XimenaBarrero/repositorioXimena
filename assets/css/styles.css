@@ -254,6 +254,7 @@ p{
 
 .fondo-verde{
     display: flex;
+    position: relative;
     flex-direction: column;
     background-color: var(--green-color);
     color: #ffffff;
@@ -264,12 +265,20 @@ p{
 .section-portafolio{
     padding: 5%;
 }
+
 .titulo-portafolio{
     font-size: 32px;
     font-weight: 700px;
     color:white;
     padding:0%;
     }
+
+.contenedor-fitness-1{
+    display: flex;
+    position: relative;
+   justify-content: center;
+   top: -5rem;
+}
 
 .fondo-fitness{
     background-color: #ffffff;
@@ -280,8 +289,15 @@ p{
 .imagen-fitness{
     display: flex;
     justify-content: center;
-   padding-top: 3rem;
+   padding: 3rem 2rem;
    min-width: fit-content;
+}
+
+.contenedor-fitness-2{
+    display: flex;
+    position: relative;
+   justify-content: center;
+   bottom: -5rem;
 }
 
 .fondo-fitness-2{
